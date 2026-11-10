@@ -279,8 +279,8 @@ a { color: inherit; }
   .about p { order: 3; margin: 0; }
   .card { text-align: center; }
   .footer h2 { text-align: center; }
-  .infos { text-align: center; }
-  .infos li { justify-content: center; }
+  .infos { text-align: left; }
+  .infos li { justify-content: flex-start; }
   .social { justify-content: center; }
   .social {
     flex-wrap: wrap;
