@@ -50,7 +50,11 @@ a { color: inherit; }
 .nav .nav-cta:hover { text-decoration: none; background: #fff; }
 
 /* ---------- Hero ---------- */
-.hero { position: relative; height: 85vh; min-height: 480px; overflow: hidden; }
+.hero { 
+  position: relative; 
+  height: calc(100vh - 72px);
+  min-height: 480px; 
+  overflow: hidden; }
 
 .hero img { width: 100%; height: 100%; object-fit: cover; }
 .hero-text {
